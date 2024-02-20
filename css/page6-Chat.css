@@ -1,0 +1,178 @@
+body{
+    margin-top: -30px;
+    background-color: #d9d9d9;
+}
+
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.wrapper-kiri{
+    
+    display: flex;
+    align-items: center;
+    height: 720px;
+    margin-left: 110px;
+    width: 500px;
+   margin-top: 25px;
+    flex-direction: column;
+    display: flex;
+   box-shadow: 2px 0px 4px #bebebe;
+   
+}
+
+.wrapper-kiri>button{
+    margin-top: 10px;
+}
+
+.wrapper-kiri>p{
+    align-self: start;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wrapper-kiri>div>input{
+    
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    place-self: 10;
+}
+
+
+
+.kiri{
+    background-color: white;
+    width: 400px;
+    border: none;
+    padding-right: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.kiri>img{
+    margin-top: 10px;
+    position: relative;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+}
+
+button>div>p{
+    margin-left: 20px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+   
+}
+
+button>div>p>img{
+    width: 20px;
+   
+}
+
+.wrapper-kanan{
+    
+    width: 900px;
+    margin-top: 40px;
+    flex-direction: column;
+    display: flex;
+
+    
+}
+
+.top-roomcht{
+    width: 100%;
+    background-color: #adadad;
+    height: 100px;
+    justify-content: baseline;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.top-roomcht>div>button{
+    margin-top: 30px;
+    border: none;
+    background-color: #adadad;
+    
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.left-top{
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    background-color: #adadad;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.left-top>img{
+    margin-right: 10px;
+    background-color: #adadad;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.roomcht>div>img{
+    margin-left: 20px;
+    width: 800px;
+
+}
+
+.roomcht>div>input{
+    margin-left: 30px;
+    width: 800px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.bold{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper-kanan{
+        display: none;
+    }
+
+    .wrapper-kiri{
+        margin-left: -2px;
+    }
+
+    .wrapper-kiri>div>input{
+        width: 300px;
+        
+    }
+    
+    .kiri{
+        margin-left: -20px;
+        background-color: white;
+        width: 325px;
+        border: none;
+        padding-right: 50px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+}

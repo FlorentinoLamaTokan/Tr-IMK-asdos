@@ -1,0 +1,750 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    
+}
+
+.logo{
+    height: 45px;
+    
+}
+
+.wrapper{
+    
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 80px;
+   
+}
+
+.navigasi{
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto, 'Source Sans Pro';
+}
+
+.navigasi > li{
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navigasi>li>a{
+    
+    text-decoration: none;
+}
+.home{
+    color: #000000;
+}
+
+.profil{
+    color: #000000;
+}
+
+.about-us{
+    color: #000000;
+}
+
+.Help{
+    color: #000000;
+}
+
+.isi-2{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+.profile-fotoprofil>p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #718355;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-fotoprofil>img{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+
+}
+
+.change-foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, 'Source Sans Pro';;
+    margin-bottom: 70px;
+    
+}
+
+.change-foto>li>a{
+    color: #0057FF;
+    text-decoration: none;
+}
+
+
+.change-foto>img{
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    margin-bottom: 10px;
+}
+
+.contact>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto, 'Source Sans Pro';
+    color: #718355;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.border-zoommeet{
+    margin-right: 10px;
+    margin-top: 28px;
+    padding-left: 5px;
+    align-items: center;
+    padding-top: 5px;
+    height: 85px;
+    width: 350px;
+    border: solid;
+    border-radius: 10px;
+    font-weight:400;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.border-WAC{
+    margin-right: 10px;
+    margin-top: 28px;
+    padding-left: 5px;
+    align-items: center;
+    padding-top: 5px;
+    height: 30px;
+    width: 350px;
+    border: solid;
+    border-radius: 10px;
+    font-weight:400;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.title-bio-community>p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #718355;
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.biodata{
+    
+    position: relative;
+    margin-top: px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 20px;
+    
+}
+
+.community{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+.border-bio{
+    margin-right: 10px;
+    margin-top: 40px;
+    padding-left: 5px;
+    align-items: center;
+    padding-top: 5px;
+    height: 30px;
+    width: 350px;
+    border: solid;
+    border-radius: 10px;
+    font-weight:400;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+
+
+.border-warna{
+    margin-top: 10px;
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+
+.border-warna>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    display: flex;
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #718355;
+    border-radius: 10px;
+}
+
+.border-warna-biodata{
+    margin-top: -20px;
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+
+.border-warna-biodata>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    display: flex;
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #718355;
+    border-radius: 10px;
+}
+
+.border-warna-com{
+    margin-top: -20px;
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+
+.border-warna-com>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    display: flex;
+    color: #FFFFFF;
+    padding: 5px;
+    background-color: #718355;
+    border-radius: 10px;
+}
+
+.border-com{
+    margin-right: 10px;
+    margin-top: 40px;
+    padding-left: 5px;
+    align-items: center;
+    padding-top: 5px;
+    height: 30px;
+    width: 350px;
+    border: solid;
+    border-radius: 10px;
+    font-weight:400;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+.container-jadwal{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.jadwal{
+    margin-top: 200px;
+    width: 1150px;
+    height: 1800px;
+    flex-shrink: 0;
+    
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper-jadwal{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 100px;
+  
+}
+
+.calendar>p{
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-left: 20PX;
+    padding-right: 20px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    background-color: #718355;
+}
+
+.navigasi>button{
+    background: none;
+    margin-right:40px;
+    border: none;
+}
+.tanggal{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.tanggal>img{
+    
+    width: 900px;
+}
+
+.list-bulan{
+    margin-left: 10%;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.list-bulan>li>a{
+    color: #000000;
+    text-decoration: none;
+}
+.list-bulan>li>a>img{
+    width: 30px;
+    
+    align-items: center;
+}
+
+.container-detail{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail{
+    margin-left: 80px;
+}
+
+.detail>p{
+    padding-left: 25px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    max-width: 150px;
+    background-color: #718355;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+.list-detail{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.list-detail>button{
+    width: 1000px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+
+.layout-2{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    
+}
+
+.layout-2>div>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+
+.tanggal-detail{
+    color: #FFFFFF;
+    margin-left: 40px;
+    max-width: 200px;
+}
+
+.tanggal-detail>p{
+    border-radius: 10px;
+    margin-top: 40px;
+    
+    align-items: center;
+    padding: 40px;
+    
+    background-color: #718355;
+}
+
+.waktu-detail{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.judul-waktu{
+    font-weight: 600;
+}
+
+.container-statistic{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.statistic>img{
+    width: 1100px;
+}
+
+.container-find-partner{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.tata-letak{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    
+}
+
+.button-find-partner>button{
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.caption-find-partner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.caption-find-partner>span{
+    
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.partner{
+    color: #4B554F;
+}
+
+
+.container-footer{
+    background-color: #B3B3B3;
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
+
+
+.footer-caption{
+    margin-top: 80px;
+    background-color: #B3B3B3;
+   
+}
+
+.footer-caption>p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #B3B3B3;
+    align-items: center;
+    justify-self: center;
+}
+
+.footer-logo{
+    margin-top: 80px;
+    background-color: #B3B3B3;
+}
+
+.footer-logo>img{
+    background-color: #B3B3B3;
+    align-items: center;
+    justify-self: center;
+}
+
+@media screen and (max-width: 500px) {
+    .logo{
+        width: 220px;
+        align-self: self-start;
+    }
+
+    body{
+        margin: auto;
+    }
+    
+
+    .container{
+    
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 190px;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .navigasi{
+        
+        margin-top: 20px;
+        justify-content: start;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navigasi>li>{
+        display: flex;
+        align-self: center;
+        justify-items: center;
+    }
+
+    .isi-2{
+        max-width: 350px;  
+      margin-left: 30px;
+        
+        margin-top: 250px;
+        
+        flex-direction: column;
+        
+    }
+
+    .biodata{
+        flex-direction: column;
+    }
+
+    .community{
+        flex-direction: column;
+    }
+
+    .container-jadwal{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .jadwal{
+        margin-top: 200px;
+        width: 500px;
+        height: 1400px;
+        flex-shrink: 0;
+        
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+    .wrapper-jadwal{
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        width: 100%;
+        height: 100px;
+      
+    }
+    
+    .calendar>p{
+        
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        border-radius: 40px;
+        padding-top: 10px;
+        padding-left: 20PX;
+        padding-right: 20px;
+        margin-left: 30px;
+        color: #FFFFFF;
+        background-color: #718355;
+    }
+    
+    .navigasi{
+        flex-direction: row;
+        margin-right: 70px;
+    }
+    
+    .navigasi>button{
+    
+        background: none;
+        margin-right:10px;
+        border: none;
+        
+    }
+
+    .navigasi>button>img{
+        width: 30px;
+    }
+    .tanggal{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .tanggal>img{
+        margin-left: -35px;
+        width: 340px;
+    }
+    
+    .list-bulan{
+        margin-left: 10%;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .list-bulan>li>a{
+        color: #000000;
+        text-decoration: none;
+    }
+    .list-bulan>li>a>img{
+        width: 30px;
+        
+        align-items: center;
+    }
+
+    .container-detail{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .detail{
+        margin-left: 4cap;
+    }
+    
+    .detail>p{
+        border-radius: 20px;
+        color: #FFFFFF;
+        max-width: 80px;
+        background-color: #718355;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+    }
+    
+    .list-detail{
+        display: flex;
+        flex-direction: column;
+        margin-left: -40px;
+        align-items: center;
+    }
+    
+    .list-detail>button{
+        width: 330px;
+        border-radius: 20px;
+        height: 200px;
+    }
+    
+    
+    .layout-2{
+        position: relative;
+        margin-top: 40px;
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        
+    }
+    
+    .layout-2>div>p{
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+    }
+    
+    .tanggal-detail{
+        color: #FFFFFF;
+        margin-left: 15px;
+        max-width: 100px;
+    }
+    
+    .tanggal-detail>p{
+        border-radius: 10px;
+        margin-top: 40px;
+        
+        align-items: center;
+        padding: 40px;
+        
+        background-color: #718355;
+    }
+    
+    .waktu-detail{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+    
+    .judul-waktu{
+        font-weight: 600;
+    }
+
+
+
+    .statistic>img{
+        margin: 20px;
+        width: 400px;
+    }
+    
+    .tata-letak{
+        flex-direction: column;
+    }
+
+    .tata-letak>div>img{
+        width: 330px;
+    }
+
+    .button-find-partner>button>a>img{
+        margin-left: 10px;
+        width:80px;
+    }
+    
+
+    .footer-caption>p{
+        font-size: 10px;
+    }
+
+    .footer-logo>img{
+        width: 100px;
+    }
+}
